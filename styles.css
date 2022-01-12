@@ -2,3 +2,46 @@ body
 {
 
 }
+
+header {
+    background-color: aqua;
+}
+
+article {
+    background-color: bisque;
+}
+
+aside {
+    background-color: blueviolet;
+}
+
+footer {
+    background-color: burlywood;
+}
+
+article img {
+    width: 100%;
+    height: auto;
+    max-width: 800px;
+}
+
+
+/* if the width of screen is smaller than 700px */
+/* Here 700 is one breakpoint */
+@media (max-width: 700px)
+{
+    header {
+        background-color: black;
+    }
+    footer {
+        width: 50%;
+    }
+}
+
+@media (max-width: 400px)
+{
+    footer {
+        width: 100%;
+        border: 1px solid black;
+    }
+}
