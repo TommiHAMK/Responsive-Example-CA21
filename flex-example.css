@@ -1,5 +1,13 @@
 body {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
+    /* Goblin example 
+    background-image: url('images/goblin-bg.jpg');
+    background-repeat: no-repeat;
+    */
+    /* full screen bg */
+    background-image: url(images/pic.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 .product1 {
